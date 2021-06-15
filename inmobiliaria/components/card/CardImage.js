@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, ImageBackground, Text, StyleSheet} from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function CardImage({url, stars}) {
   return (
@@ -10,6 +11,7 @@ export default function CardImage({url, stars}) {
         imageStyle={{borderRadius: 10}}
       >
         <View style={styles.starsContainer}>
+          <Icon name="star" size={15} color="#EEBA00" />
           <Text style={styles.starsText}>{stars}</Text>
         </View>
       </ImageBackground>
@@ -25,6 +27,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end'
   },
   starsContainer: {
+    flexDirection: 'row',
     width: 45,
     height: 25,
     borderRadius: 10,
