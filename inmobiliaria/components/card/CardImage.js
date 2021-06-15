@@ -19,11 +19,10 @@ export default function CardImage({url, stars}) {
 
 const styles = StyleSheet.create({
   cardImage: {
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
     borderRadius: 10,
-    justifyContent: 'flex-end',
-    marginRight: 15
+    justifyContent: 'flex-end'
   },
   starsContainer: {
     width: 45,

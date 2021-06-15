@@ -18,13 +18,13 @@ const styles = StyleSheet.create({
   cardContainer: {
     backgroundColor: '#F5FDFF',
     marginBottom: 20,
-    height: 110,
-    width: 260,
+    height: 130,
+    width: 300,
     borderRadius: 10,
     justifyContent: 'center'
   },
   cardWrapper: {
     flexDirection: 'row',
-    justifyContent: 'center'
+    justifyContent: 'space-evenly'
   }
 })

@@ -11,7 +11,7 @@ export default function CardInfo({
     price_monthly,
 }) {
   return (
-    <View>
+    <View style={styles.cardInfocontainer}>
       <Text style={styles.nameText}>{name}</Text>
       <View style={styles.addressContainer}>
         <Text style={styles.addressText}>{address}</Text>
@@ -36,6 +36,9 @@ export default function CardInfo({
 };
 
 const styles = StyleSheet.create({
+  cardInfocontainer: {
+    justifyContent: 'space-between'
+  },
   addressContainer: {
     flexDirection: 'row'
   },
@@ -48,7 +51,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   nameText: {
-    fontSize: 16,
+    fontSize: 18,
     color: '#151525',
   },
   addressText: {
@@ -62,7 +65,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   priceText: {
-    fontSize: 16,
+    fontSize: 18,
     color: '#151525',
     fontWeight: 'bold'
   }
