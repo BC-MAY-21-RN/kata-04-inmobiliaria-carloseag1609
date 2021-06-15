@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.mainContainer}>
       <FlatList
         data={properties}
-        renderItem={({item}) => <Card {...item} />}
+        renderItem={({item}) => <Card property={item} />}
       />
     </View>
   );
@@ -19,5 +19,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 30,
     paddingVertical: 10,
+    alignItems: 'center'
   }
 })
