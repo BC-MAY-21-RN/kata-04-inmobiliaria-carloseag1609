@@ -3,17 +3,19 @@
     {
       "id": 1,
       "name": "The Willows",
-      "dir": "3517 W. Gray St. Utica",
+      "address": "3517 W. Gray St. Utica",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/09/dragon-ball-kame-house-mutenroshi-existe-mundo-real-2061839.jpg",
       "num_rooms": 3,
       "num_bath": 2,
       "surface": 230,
       "price_monthly": 440,
-      "stars": 4.7
+      "stars": 4.7,
     },
     {
       "id": 2,
       "name": "Orchard House",
-      "dir": "3517 W. Gray St. Utica",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/09/dragon-ball-kame-house-mutenroshi-existe-mundo-real-2061839.jpg",
+      "address": "3517 W. Gray St. Utica",
       "num_rooms": 2,
       "num_bath": 1,
       "surface": 180,
@@ -23,7 +25,8 @@
     {
       "id": 3,
       "name": "Corner House",
-      "dir": "3517 W. Gray St. Utica",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/09/dragon-ball-kame-house-mutenroshi-existe-mundo-real-2061839.jpg",
+      "address": "3517 W. Gray St. Utica",
       "num_rooms": 5,
       "num_bath": 3,
       "surface": 430,
